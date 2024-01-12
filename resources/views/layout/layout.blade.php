@@ -8,11 +8,8 @@
 	@vite('resources/css/app.css')
 </head>
 <body>
-    hello hayss
-
 	<div id="app">
-		<sample-vue></sample-vue>
-		<app-sample></app-sample>
+		@yield('content')
 	</div>
 	@vite('resources/js/app.js')
 </body>
